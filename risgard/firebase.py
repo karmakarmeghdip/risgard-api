@@ -21,6 +21,6 @@ firebase = firebase_admin.initialize_app(cred)
 pb = pyrebase.initialize_app({
     "apiKey":           os.environ.get('apiKey'),
     "authDomain":       os.environ.get('authDomain'),
-    "databaseURL":      os.environ.get('databaseURL'),
+    "databaseURL":    os.environ.get('databaseURL'),
     "storageBucket":    os.environ.get('storageBucket'),
 })
